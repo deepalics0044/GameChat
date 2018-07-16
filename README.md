@@ -5,18 +5,25 @@ From a terminal window, run these commands
 1.For cloning the files
 
 
-git clone http://<username>@<Bitbucket Server URL>/scm/<project key>/website.git
-Click for an explanation of these commands...
-This creates an empty Git repository named TISwebsite
+  git clone https://github.com/unaissait/GameChat.git 
 
-Add the files to your personal repository from the command line.
-From a terminal window
+2.To Work in the Clone
 
-cd existing-project
+  cd GameChat
 
-git init
+3.For Merging the modification from local clone folder in your pc to master in github
 
-git add --all
-git commit -m "Initial Commit"
-git remote add origin http://<Bitbucket Server URL>/scm/tis/website.git
-git push -u origin master
+  git init
+
+  git add --all
+
+  git commit -m "Initial Commit"
+
+  git remote add origin https://github.com/unaissait/GameChat.git 
+
+  git push -u origin master
+  
+4.For getting the updates from master in github(should be done before step 3 if it is not the first time)
+
+  git pull origin master
+
